@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Упражнения шестого урока</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <script src="Практическое задание 6 урока.js" defer></script> -->
+	<!-- <script src="bigAndSmallImg.js" defer></script> -->
+</head>
+<body>
+								<!-- Упражнение замены картинки в галерее 
+	 
+	<div class="forBigImg"></div>
+	<div class="forSmallImg"></div> -->								
+
+								<!-- Упражнение "КОРЗИНА"
+	
+	<div class="catalog"></div>
+	<div class="basket">
+		<div class="message"></div>
+	</div> -->
+
+
+	
+
+</body>
+</html>
