@@ -1,0 +1,108 @@
+/* 1. Доработать функцию замены картинки в галерее*/
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.forSmallImg {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 0 0;
+}
+
+.forSmallImg img {
+	box-sizing: border-box;
+	padding: 2px;
+	width: 200px;
+	height: 150px;
+}
+
+.forSmallImg img:hover {
+	border: 2px solid black;
+}
+
+.forBigImg {
+	display: flex;
+	justify-content: center;
+	height: 600px;
+}
+
+.forBigImg div {
+	display: flex;
+	justify-content: center;
+}
+
+.forBigImg img {
+	box-sizing: border-box;
+	padding: 5px;
+	border: 2px solid black;
+	width: 900px;
+	height: 600px;
+}
+
+/* *Добавить в галерею функцию перехода к следующему изображению.*/
+
+
+.forBigImg #nextImg, .forBigImg #previousImg {
+	margin: 20px;
+	align-self: center;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+}
+
+.forBigImg #previousImg {
+	order: -1;
+}
+
+
+
+
+
+/* 2.Реализовать модуль корзины.*/
+
+/*body {
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog {
+	display: flex;
+	flex-direction: row;
+}
+
+.basket {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+}
+
+.message {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.basket .item {
+	height: auto;
+	padding: 0 0 10px 20px;
+	margin: 5px 0 5px 0;
+	background-color: #a9b2fc;
+}
+
+.catalog div {
+	text-align: center;
+	border: 1px solid grey;
+	padding: 10px;
+	width: 250px;
+	height: 300px;
+	margin: 0 20px 40px 20px; 
+}
+
+.catalog div img {
+	width: 150px;
+	height: 150px;
+}*/
+
+
