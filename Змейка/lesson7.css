@@ -33,3 +33,10 @@ td.game-table-cell{
     margin: 30px auto 0;
     text-align: center;
 }
+.bomb{
+    width: 15px;
+    height: 15px;
+    background-image: url(bomb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
